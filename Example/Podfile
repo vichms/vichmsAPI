@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VichmsAPI_Example' do
+  pod 'VichmsAPI', :path => '../'
+
+  target 'VichmsAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
