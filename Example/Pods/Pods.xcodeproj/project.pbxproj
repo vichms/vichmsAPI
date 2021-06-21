@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F278941D4E3FBF5162F5779A8EAA482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		138A6E94D5C466F0DD7F4EED0602B37A /* Pods-VichmsAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7395A7802F55F8DD86DDC23D49070CC9 /* Pods-VichmsAPI_Tests-dummy.m */; };
+		255315F1645C80F0DAD8ED0AAAA30173 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D608A6D506D58D0D0FB4D6E5B104157 /* ReplaceMe.swift */; };
+		268751318FC1F891CB8C60822EFD27EC /* VichmsAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323F9B97D128103D39D85380CAC2F7A /* VichmsAPI-dummy.m */; };
+		AA19792EE4FE7710036AE12DCD207C21 /* Pods-VichmsAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7136525CC22020DBDF947B3FF9E57F5 /* Pods-VichmsAPI_Example-dummy.m */; };
+		AAA7886CBBB4F2CAC3ABC1FEF76121BE /* Pods-VichmsAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFFF21458431475846E7700BB0BF89A /* Pods-VichmsAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBE775AA59F0CBFE1E44ECB85127EBFD /* VichmsAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028BBE717DDC40C742485DA12B24B847 /* VichmsAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E31CA9C5D5E27183F64BE29E4FD9AA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EFBAAE058A9BC59853340155BBEFCEC2 /* Pods-VichmsAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE50577501AF2F404BF91DAD47099467 /* Pods-VichmsAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF60ACC42108969E2895DE6935B239DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		997B51DDE5BE19A14EBB251A43ACE7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1287643B7639D4DF0141F8A806EB0A;
+			remoteInfo = "Pods-VichmsAPI_Example";
+		};
+		F471493475100303C2E932F25BC97417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDF442BD0F60FBB29B058B82F0A01B7;
+			remoteInfo = VichmsAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E63C39B6F4E932696FB95E68DC566 /* Pods-VichmsAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VichmsAPI_Example.modulemap"; sourceTree = "<group>"; };
+		028BBE717DDC40C742485DA12B24B847 /* VichmsAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VichmsAPI-umbrella.h"; sourceTree = "<group>"; };
+		0AFFF21458431475846E7700BB0BF89A /* Pods-VichmsAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VichmsAPI_Example-umbrella.h"; sourceTree = "<group>"; };
+		14E817C7362D1F5358128B737F873285 /* Pods-VichmsAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VichmsAPI_Tests.modulemap"; sourceTree = "<group>"; };
+		2DB3CEC93E95EF94DFE3617129325D31 /* Pods-VichmsAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VichmsAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F80F2E715FC912F80301C35CF3B748B /* VichmsAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VichmsAPI.modulemap; sourceTree = "<group>"; };
+		313F3363BCF7E5701823BA13F5B75EFF /* Pods-VichmsAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VichmsAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D6563B32EC882DFBC9BAAF3B8CE965E /* Pods-VichmsAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40890F927203B749ECD03DE1AA3BF2A3 /* Pods-VichmsAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VichmsAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		449A609BF91A8E99553BAC4A34F1D7AA /* Pods-VichmsAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VichmsAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC7547D570ABDCFCC94108735FB598F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6323F9B97D128103D39D85380CAC2F7A /* VichmsAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VichmsAPI-dummy.m"; sourceTree = "<group>"; };
+		6587455015DB93E0C35D569862675765 /* Pods-VichmsAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VichmsAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		66D92E08E9E93686F345CA8F98093D77 /* Pods-VichmsAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VichmsAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D608A6D506D58D0D0FB4D6E5B104157 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VichmsAPI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		711BADAE2ED527CE7DDE6ED132E4E67F /* VichmsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VichmsAPI.debug.xcconfig; sourceTree = "<group>"; };
+		7300E8936C21038067B0F622EB2F3A6A /* VichmsAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VichmsAPI-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7395A7802F55F8DD86DDC23D49070CC9 /* Pods-VichmsAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VichmsAPI_Tests-dummy.m"; sourceTree = "<group>"; };
+		7E1979A8842E5E29D04832C3DE53DB34 /* VichmsAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VichmsAPI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		873514B7D0DA6BDF2A16DA47765220E9 /* VichmsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VichmsAPI.framework; path = VichmsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8867C213D8213BF95274DE14B79F83EE /* Pods-VichmsAPI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Tests-Info.plist"; sourceTree = "<group>"; };
+		91E184F8E5EE4E3ED3C35DE968DFD67C /* Pods-VichmsAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VichmsAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A665D531D600E01995AFEA547AD42309 /* VichmsAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VichmsAPI-prefix.pch"; sourceTree = "<group>"; };
+		A7136525CC22020DBDF947B3FF9E57F5 /* Pods-VichmsAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VichmsAPI_Example-dummy.m"; sourceTree = "<group>"; };
+		B161236EC3C6D7B33A28DB1757996F28 /* Pods-VichmsAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Example-Info.plist"; sourceTree = "<group>"; };
+		B653527557A868AE4566A6C55577F8CF /* Pods-VichmsAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC721FF034B25BC89707E5575F7C3DD1 /* Pods_VichmsAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VichmsAPI_Example.framework; path = "Pods-VichmsAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1024B890CBFE71ED1A95D19767EBA2 /* VichmsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VichmsAPI.release.xcconfig; sourceTree = "<group>"; };
+		D7AAFD553E8C6686CB8500BAC2E4D751 /* Pods_VichmsAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VichmsAPI_Tests.framework; path = "Pods-VichmsAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD82C9C1F6C0069C03077F4CDA63AC48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE50577501AF2F404BF91DAD47099467 /* Pods-VichmsAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VichmsAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054F9395A91DAF27B49606CE0F526D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF60ACC42108969E2895DE6935B239DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936EF03624197FB5AFC8125D58B45F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31CA9C5D5E27183F64BE29E4FD9AA02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09749F6C2C45F37A4CBDFE3FC1FF4F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F278941D4E3FBF5162F5779A8EAA482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0594052E3D1508778CDCFD3FC05E6A44 /* VichmsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6D608A6D506D58D0D0FB4D6E5B104157 /* ReplaceMe.swift */,
+				0A49097C700DE6F86A55BB743F29FA3A /* Pod */,
+				ECFBF958D7A918DC0D930B71AD4294FF /* Support Files */,
+			);
+			name = VichmsAPI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0A49097C700DE6F86A55BB743F29FA3A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7547D570ABDCFCC94108735FB598F /* LICENSE */,
+				DD82C9C1F6C0069C03077F4CDA63AC48 /* README.md */,
+				7E1979A8842E5E29D04832C3DE53DB34 /* VichmsAPI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F4D3FC1E7B4D1FAE7421C2C7BB92380 /* Pods-VichmsAPI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				14E817C7362D1F5358128B737F873285 /* Pods-VichmsAPI_Tests.modulemap */,
+				40890F927203B749ECD03DE1AA3BF2A3 /* Pods-VichmsAPI_Tests-acknowledgements.markdown */,
+				3D6563B32EC882DFBC9BAAF3B8CE965E /* Pods-VichmsAPI_Tests-acknowledgements.plist */,
+				7395A7802F55F8DD86DDC23D49070CC9 /* Pods-VichmsAPI_Tests-dummy.m */,
+				8867C213D8213BF95274DE14B79F83EE /* Pods-VichmsAPI_Tests-Info.plist */,
+				DE50577501AF2F404BF91DAD47099467 /* Pods-VichmsAPI_Tests-umbrella.h */,
+				66D92E08E9E93686F345CA8F98093D77 /* Pods-VichmsAPI_Tests.debug.xcconfig */,
+				91E184F8E5EE4E3ED3C35DE968DFD67C /* Pods-VichmsAPI_Tests.release.xcconfig */,
+			);
+			name = "Pods-VichmsAPI_Tests";
+			path = "Target Support Files/Pods-VichmsAPI_Tests";
+			sourceTree = "<group>";
+		};
+		80AF6DE9C6D8E7C8409676FBAA7E69C6 /* Pods-VichmsAPI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				001E63C39B6F4E932696FB95E68DC566 /* Pods-VichmsAPI_Example.modulemap */,
+				2DB3CEC93E95EF94DFE3617129325D31 /* Pods-VichmsAPI_Example-acknowledgements.markdown */,
+				B653527557A868AE4566A6C55577F8CF /* Pods-VichmsAPI_Example-acknowledgements.plist */,
+				A7136525CC22020DBDF947B3FF9E57F5 /* Pods-VichmsAPI_Example-dummy.m */,
+				6587455015DB93E0C35D569862675765 /* Pods-VichmsAPI_Example-frameworks.sh */,
+				B161236EC3C6D7B33A28DB1757996F28 /* Pods-VichmsAPI_Example-Info.plist */,
+				0AFFF21458431475846E7700BB0BF89A /* Pods-VichmsAPI_Example-umbrella.h */,
+				449A609BF91A8E99553BAC4A34F1D7AA /* Pods-VichmsAPI_Example.debug.xcconfig */,
+				313F3363BCF7E5701823BA13F5B75EFF /* Pods-VichmsAPI_Example.release.xcconfig */,
+			);
+			name = "Pods-VichmsAPI_Example";
+			path = "Target Support Files/Pods-VichmsAPI_Example";
+			sourceTree = "<group>";
+		};
+		B2324EA444C67DF160BEAC49569FCE79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0594052E3D1508778CDCFD3FC05E6A44 /* VichmsAPI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B928F2251A9811993B655AE50261C4CA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AF6DE9C6D8E7C8409676FBAA7E69C6 /* Pods-VichmsAPI_Example */,
+				5F4D3FC1E7B4D1FAE7421C2C7BB92380 /* Pods-VichmsAPI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8B84A1AE167EC01C168B9FCB944C5E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC721FF034B25BC89707E5575F7C3DD1 /* Pods_VichmsAPI_Example.framework */,
+				D7AAFD553E8C6686CB8500BAC2E4D751 /* Pods_VichmsAPI_Tests.framework */,
+				873514B7D0DA6BDF2A16DA47765220E9 /* VichmsAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B2324EA444C67DF160BEAC49569FCE79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C8B84A1AE167EC01C168B9FCB944C5E4 /* Products */,
+				B928F2251A9811993B655AE50261C4CA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECFBF958D7A918DC0D930B71AD4294FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F80F2E715FC912F80301C35CF3B748B /* VichmsAPI.modulemap */,
+				6323F9B97D128103D39D85380CAC2F7A /* VichmsAPI-dummy.m */,
+				7300E8936C21038067B0F622EB2F3A6A /* VichmsAPI-Info.plist */,
+				A665D531D600E01995AFEA547AD42309 /* VichmsAPI-prefix.pch */,
+				028BBE717DDC40C742485DA12B24B847 /* VichmsAPI-umbrella.h */,
+				711BADAE2ED527CE7DDE6ED132E4E67F /* VichmsAPI.debug.xcconfig */,
+				CD1024B890CBFE71ED1A95D19767EBA2 /* VichmsAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VichmsAPI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B304A6A4B36E0856759E06385033851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE775AA59F0CBFE1E44ECB85127EBFD /* VichmsAPI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E521E1FD1892B8E4916ED5E49B4E21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA7886CBBB4F2CAC3ABC1FEF76121BE /* Pods-VichmsAPI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9E8EC458DEB6D3665CD977CF1D11A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBAAE058A9BC59853340155BBEFCEC2 /* Pods-VichmsAPI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C1287643B7639D4DF0141F8A806EB0A /* Pods-VichmsAPI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E530840B9D773CDA08C7427B1A72E26B /* Build configuration list for PBXNativeTarget "Pods-VichmsAPI_Example" */;
+			buildPhases = (
+				A3E521E1FD1892B8E4916ED5E49B4E21 /* Headers */,
+				B6CA39A964693FCB460CB4D9BCDF4D6F /* Sources */,
+				C09749F6C2C45F37A4CBDFE3FC1FF4F7 /* Frameworks */,
+				A4B944D0D6D1F1B1EA12AC6E05B76FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F4D537DCB269A6A9356A0FCDAB578D /* PBXTargetDependency */,
+			);
+			name = "Pods-VichmsAPI_Example";
+			productName = "Pods-VichmsAPI_Example";
+			productReference = BC721FF034B25BC89707E5575F7C3DD1 /* Pods_VichmsAPI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C7E4DD3174703BCB517BB41310B5BA0 /* Pods-VichmsAPI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AE8C321F55EB2332AFAA95581EAE4BC /* Build configuration list for PBXNativeTarget "Pods-VichmsAPI_Tests" */;
+			buildPhases = (
+				AE9E8EC458DEB6D3665CD977CF1D11A8 /* Headers */,
+				36D2C30C6C0C390E1F6AA325E743F250 /* Sources */,
+				054F9395A91DAF27B49606CE0F526D74 /* Frameworks */,
+				D4D9A69F1FD03D31E7FB599568C0F607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF9C957F506AF86A6F2C33565D0E8382 /* PBXTargetDependency */,
+			);
+			name = "Pods-VichmsAPI_Tests";
+			productName = "Pods-VichmsAPI_Tests";
+			productReference = D7AAFD553E8C6686CB8500BAC2E4D751 /* Pods_VichmsAPI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDDF442BD0F60FBB29B058B82F0A01B7 /* VichmsAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBC6FD1895E4F493010396524C87C9AF /* Build configuration list for PBXNativeTarget "VichmsAPI" */;
+			buildPhases = (
+				2B304A6A4B36E0856759E06385033851 /* Headers */,
+				210809648945DE881EAC0DD0B735DBB2 /* Sources */,
+				936EF03624197FB5AFC8125D58B45F69 /* Frameworks */,
+				08F701C4CDDA474C7AB2566DF6A293DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VichmsAPI;
+			productName = VichmsAPI;
+			productReference = 873514B7D0DA6BDF2A16DA47765220E9 /* VichmsAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C8B84A1AE167EC01C168B9FCB944C5E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C1287643B7639D4DF0141F8A806EB0A /* Pods-VichmsAPI_Example */,
+				1C7E4DD3174703BCB517BB41310B5BA0 /* Pods-VichmsAPI_Tests */,
+				EDDF442BD0F60FBB29B058B82F0A01B7 /* VichmsAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08F701C4CDDA474C7AB2566DF6A293DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4B944D0D6D1F1B1EA12AC6E05B76FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D9A69F1FD03D31E7FB599568C0F607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210809648945DE881EAC0DD0B735DBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255315F1645C80F0DAD8ED0AAAA30173 /* ReplaceMe.swift in Sources */,
+				268751318FC1F891CB8C60822EFD27EC /* VichmsAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D2C30C6C0C390E1F6AA325E743F250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138A6E94D5C466F0DD7F4EED0602B37A /* Pods-VichmsAPI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6CA39A964693FCB460CB4D9BCDF4D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA19792EE4FE7710036AE12DCD207C21 /* Pods-VichmsAPI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F4D537DCB269A6A9356A0FCDAB578D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VichmsAPI;
+			target = EDDF442BD0F60FBB29B058B82F0A01B7 /* VichmsAPI */;
+			targetProxy = F471493475100303C2E932F25BC97417 /* PBXContainerItemProxy */;
+		};
+		EF9C957F506AF86A6F2C33565D0E8382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VichmsAPI_Example";
+			target = 1C1287643B7639D4DF0141F8A806EB0A /* Pods-VichmsAPI_Example */;
+			targetProxy = 997B51DDE5BE19A14EBB251A43ACE7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A88117691DC3A5B842AC10A5A43591E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449A609BF91A8E99553BAC4A34F1D7AA /* Pods-VichmsAPI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VichmsAPI_Example/Pods-VichmsAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VichmsAPI_Example/Pods-VichmsAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CAC1600FCDEB25B16DA67322EDE2866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E184F8E5EE4E3ED3C35DE968DFD67C /* Pods-VichmsAPI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VichmsAPI_Tests/Pods-VichmsAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VichmsAPI_Tests/Pods-VichmsAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F47956116450CC141A054BF53632D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711BADAE2ED527CE7DDE6ED132E4E67F /* VichmsAPI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VichmsAPI/VichmsAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VichmsAPI/VichmsAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VichmsAPI/VichmsAPI.modulemap";
+				PRODUCT_MODULE_NAME = VichmsAPI;
+				PRODUCT_NAME = VichmsAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		50D7FBCA3FEEBF5A72320DEA4A360EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D92E08E9E93686F345CA8F98093D77 /* Pods-VichmsAPI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VichmsAPI_Tests/Pods-VichmsAPI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VichmsAPI_Tests/Pods-VichmsAPI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5D87F761AB9109BA27E1B4FE5D7C1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313F3363BCF7E5701823BA13F5B75EFF /* Pods-VichmsAPI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VichmsAPI_Example/Pods-VichmsAPI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VichmsAPI_Example/Pods-VichmsAPI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2C12B90B4AD057BCE7A0861B68E7F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD1024B890CBFE71ED1A95D19767EBA2 /* VichmsAPI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VichmsAPI/VichmsAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VichmsAPI/VichmsAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VichmsAPI/VichmsAPI.modulemap";
+				PRODUCT_MODULE_NAME = VichmsAPI;
+				PRODUCT_NAME = VichmsAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AE8C321F55EB2332AFAA95581EAE4BC /* Build configuration list for PBXNativeTarget "Pods-VichmsAPI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D7FBCA3FEEBF5A72320DEA4A360EB9 /* Debug */,
+				0CAC1600FCDEB25B16DA67322EDE2866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBC6FD1895E4F493010396524C87C9AF /* Build configuration list for PBXNativeTarget "VichmsAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47956116450CC141A054BF53632D6F /* Debug */,
+				F2C12B90B4AD057BCE7A0861B68E7F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E530840B9D773CDA08C7427B1A72E26B /* Build configuration list for PBXNativeTarget "Pods-VichmsAPI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A88117691DC3A5B842AC10A5A43591E /* Debug */,
+				E5D87F761AB9109BA27E1B4FE5D7C1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
