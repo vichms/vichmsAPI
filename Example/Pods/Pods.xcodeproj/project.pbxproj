@@ -15,6 +15,8 @@
 		AAA7886CBBB4F2CAC3ABC1FEF76121BE /* Pods-VichmsAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFFF21458431475846E7700BB0BF89A /* Pods-VichmsAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B478074826803ED300FE6BEB /* NetworkGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478074726803ED300FE6BEB /* NetworkGeneric.swift */; };
 		B478074A26803EFF00FE6BEB /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478074926803EFF00FE6BEB /* ApiError.swift */; };
+		B478074E2680514700FE6BEB /* NetworkMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478074D2680514700FE6BEB /* NetworkMethods.swift */; };
+		B47807502680556000FE6BEB /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B478074F2680556000FE6BEB /* AnyEncodable.swift */; };
 		DBE775AA59F0CBFE1E44ECB85127EBFD /* VichmsAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028BBE717DDC40C742485DA12B24B847 /* VichmsAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E31CA9C5D5E27183F64BE29E4FD9AA02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EFBAAE058A9BC59853340155BBEFCEC2 /* Pods-VichmsAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE50577501AF2F404BF91DAD47099467 /* Pods-VichmsAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +70,8 @@
 		B161236EC3C6D7B33A28DB1757996F28 /* Pods-VichmsAPI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Example-Info.plist"; sourceTree = "<group>"; };
 		B478074726803ED300FE6BEB /* NetworkGeneric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGeneric.swift; sourceTree = "<group>"; };
 		B478074926803EFF00FE6BEB /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		B478074D2680514700FE6BEB /* NetworkMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethods.swift; sourceTree = "<group>"; };
+		B478074F2680556000FE6BEB /* AnyEncodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyEncodable.swift; sourceTree = "<group>"; };
 		B653527557A868AE4566A6C55577F8CF /* Pods-VichmsAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VichmsAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC721FF034B25BC89707E5575F7C3DD1 /* Pods_VichmsAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VichmsAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1024B890CBFE71ED1A95D19767EBA2 /* VichmsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VichmsAPI.release.xcconfig; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 			children = (
 				B478074726803ED300FE6BEB /* NetworkGeneric.swift */,
 				B478074926803EFF00FE6BEB /* ApiError.swift */,
+				B478074D2680514700FE6BEB /* NetworkMethods.swift */,
+				B478074F2680556000FE6BEB /* AnyEncodable.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -404,6 +410,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B478074826803ED300FE6BEB /* NetworkGeneric.swift in Sources */,
+				B47807502680556000FE6BEB /* AnyEncodable.swift in Sources */,
+				B478074E2680514700FE6BEB /* NetworkMethods.swift in Sources */,
 				AA19792EE4FE7710036AE12DCD207C21 /* Pods-VichmsAPI_Example-dummy.m in Sources */,
 				B478074A26803EFF00FE6BEB /* ApiError.swift in Sources */,
 			);
